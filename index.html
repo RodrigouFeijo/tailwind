@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="flex justify-between items-center p-6 border-b border-gray-300">
+        <div class="text-2xl font-bold">sneakers</div>
+        <nav class="hidden lg:flex space-x-6">
+            <a href="#" class="text-gray-600 hover:text-gray-900">Coleções</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900">Masculino</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900">Feminino</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900">Sobre</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900">Contato</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-gray-600 hover:text-gray-900">🛒</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900">👤</a>
+        </div>
+    </header>
+    <main class="max-w-6xl mx-auto p-6 flex flex-col lg:flex-row">
+        <div class="lg:w-1/2">
+            <img src="img/image-product-1.jpg" alt="Sneakers" class="w-full rounded-lg">
+            <div class="flex space-x-4 mt-4">
+                <img src="img/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="w-1/4 rounded-lg border border-gray-300">
+                <img src="img/image-product-2-thumbnail.jpg" alt="Thumbnail 2" class="w-1/4 rounded-lg border border-gray-300">
+                <img src="img/image-product-3-thumbnail.jpg" alt="Thumbnail 3" class="w-1/4 rounded-lg border border-gray-300">
+                <img src="img/image-product-4-thumbnail.jpgz" alt="Thumbnail 4" class="w-1/4 rounded-lg border border-gray-300">
+            </div>
+        </div>
+        <div class="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
+            <h2 class="text-sm font-semibold text-orange-500 uppercase">Sneaker Company</h2>
+            <h1 class="text-3xl font-bold mt-2">Tênis Edição Limitada de Outono</h1>
+            <p class="text-gray-700 mt-4">Estes tênis de perfil baixo são seu companheiro perfeito para um visual casual. Apresentam um solado de borracha durável, pronto para enfrentar qualquer clima.</p>
+            <div class="flex items-center mt-6">
+                <span class="text-3xl font-bold text-gray-900">R$125,00</span>
+                <span class="text-gray-500 line-through ml-4">R$250,00</span>
+                <span class="bg-orange-500 text-white text-sm font-semibold ml-4 px-2 py-1 rounded">50% OFF</span>
+            </div>
+            <div class="flex items-center mt-6">
+                <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded-l">-</button>
+                <input type="number" value="0" class="w-12 text-center border-t border-b border-gray-300">
+                <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded-r">+</button>
+            </div>
+            <button class="bg-orange-500 text-white px-6 py-3 rounded-lg mt-6 hover:bg-orange-600">Adicionar ao carrinho</button>
+        </div>
+    </main>
+</body>
+</html>
